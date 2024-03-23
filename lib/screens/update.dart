@@ -12,7 +12,8 @@ class _UpdateScreenState extends State<UpdateScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Update"),
+        title: const Text("Update",
+         style: TextStyle(fontWeight: FontWeight.w600, fontSize: 30),),
       ),
     );
   }

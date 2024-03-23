@@ -19,8 +19,7 @@ final List<Widget> _screens = [
   ];
   void _onItemTapped(int index) {
     setState(() {
-      _currentIndex = index;
-      
+      _currentIndex = index;   
     });
   }
   @override
@@ -29,7 +28,7 @@ final List<Widget> _screens = [
      bottomNavigationBar: BottomNavigationBar(
           onTap: _onItemTapped,
           currentIndex: _currentIndex,
-          selectedItemColor: Colors.blue,  // Customize color
+          selectedItemColor: Colors.black,  // Customize color
           unselectedItemColor: Colors.grey,  // Customize color
           items: const [
             BottomNavigationBarItem(
